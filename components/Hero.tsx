@@ -1,7 +1,7 @@
 'use client';
 
+import { CustomButton } from '.';
 import Image from 'next/image';
-import CustomButton from './CustomButton';
 
 const Hero = () => {
   const handleScroll = () => {};
@@ -33,8 +33,8 @@ const Hero = () => {
             className='object-contain'
             fill
           />
-          <div className='hero__image-overlay' />
         </div>
+        <div className='hero__image-overlay' />
       </div>
     </div>
   );
