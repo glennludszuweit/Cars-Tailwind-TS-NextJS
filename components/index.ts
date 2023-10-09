@@ -7,6 +7,7 @@ import SearchBar from './SearchBar';
 import SearchManufacturer from './SearchManufacturer';
 import SearchModel from './SearchModel';
 import CarCard from './CarCard';
+import CarDetails from './CarDetails';
 
 export {
   Navbar,
@@ -17,5 +18,6 @@ export {
   SearchBar,
   SearchManufacturer,
   SearchModel,
-  CarCard
+  CarCard,
+  CarDetails,
 };

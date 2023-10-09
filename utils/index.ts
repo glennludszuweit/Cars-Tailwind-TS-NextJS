@@ -1,6 +1,6 @@
 export const fetchCars = async () => {
   const url =
-    'https://cars-by-api-ninjas.p.rapidapi.com/v1/cars?limit=10&model=corolla';
+    'https://cars-by-api-ninjas.p.rapidapi.com/v1/cars?limit=9&model=corolla';
   const headers = {
     'X-RapidAPI-Key': process.env.X_RAPIDAPI_KEY || '',
     'X-RapidAPI-Host': 'cars-by-api-ninjas.p.rapidapi.com',

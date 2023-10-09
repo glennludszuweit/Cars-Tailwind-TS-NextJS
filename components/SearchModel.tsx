@@ -1,5 +1,7 @@
-import { SearchModelProps } from '@/types';
-import React from 'react';
+interface SearchModelProps {
+  model: string;
+  setModel: (model: string) => void;
+}
 
 const SearchModel = ({ model, setModel }: SearchModelProps) => {
   return <div>SearchModel</div>;
