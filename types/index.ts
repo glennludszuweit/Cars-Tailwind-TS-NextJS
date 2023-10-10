@@ -1,4 +1,4 @@
-export type Car = {
+export interface Car {
   city_mpg: number;
   class: string;
   combination_mpg: number;
@@ -11,4 +11,12 @@ export type Car = {
   model: string;
   transmission: string;
   year: number;
-};
+}
+
+export interface FilterProps {
+  manufacturer: string;
+  model: string;
+  year: number;
+  fuel: string;
+  limit: number;
+}
